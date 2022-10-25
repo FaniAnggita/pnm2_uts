@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sticky Note</string>
+    <string name="tasks">Kerja</string>
+    <string name="snackbarok">OK</string>
+    <string name="storage_permission_text">Aplikasi ini membutuhkan akses penyimpanan Handphone Anda</string>
+    <string name="search_notes">Cari Catatan</string>
+    <string name="notes">Catatan</string>
+    <string name="my_notes">Catatnku</string>
+</resources>

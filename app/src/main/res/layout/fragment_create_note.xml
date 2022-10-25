@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fcnLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_3"
+    android:orientation="vertical"
+    tools:context=".FragmentTambahCatatan">
+
+
+    <ImageView
+        android:id="@+id/tombolSave"
+
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="664dp"
+        android:background="@color/dark_blue_shade_2"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDateTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDateTime">
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editDesCatatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Tulis Catatan"
+        android:paddingLeft="13sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editJudulCatatan" />
+
+    <EditText
+        android:id="@+id/editJudulCatatan"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="76dp"
+        android:hint="Masukkan Judul"
+        android:maxLines="1"
+        android:paddingStart="5sp"
+        android:paddingLeft="5sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="-13dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
